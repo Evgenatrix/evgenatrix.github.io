@@ -1,0 +1,51 @@
+Как получить прямой url к файлу, загруженному на gogole disk
+
+https://denis-creative.com/google-disk-path-to-file/
+
+
+Мне нужно получить прямую ссылку на файл, который загружен на Google Disk, но проблема в том, что я нигде не могу такой ссылки получить, Гугл Диск выдает только ссылки на файл внутри своего окружения, то есть я получаю ссылку на гугл диск директорию, в которой лежит мой файл (если вы понимаете о чем я).
+
+Задача – получить прямой url к файлу, загруженному на google disk
+Например, у нас есть файл, публичная ссылка для которого:
+
+https://drive.google.com/file/d/1HfUzgQKQ0-82587c9WbvQIJWUIHH3rq_/view
+В этом урле 1HfUzgQKQ0-82587c9WbvQIJWUIHH3rq_ – это FILE-ID, копируем его и вставляем в такой шаблон:
+
+https://docs.google.com/uc?id=FILE-ID
+Получаем такой урл, который будет сокращенной ссылкой на наш файл:
+
+https://docs.google.com/uc?id=1HfUzgQKQ0-82587c9WbvQIJWUIHH3rq_
+При переходе по урлу выше, мы получим редирект на распакованную ссылку на файл, но эту ссылку лучше не использовать, потому что она временная:
+
+https://doc-0o-1c-docs.googleusercontent.com/docs/securesc/nnbgfj1633ng0if00e1ogkvpblbvlnda/rvu3br849lat85eni2lkadmbjskv9keg/1543413600000/13857934362328443660/17013670910803495986/1HfUzgQKQ0-82587c9WbvQIJWUIHH3rq_?nonce=vhqvl4oc1c7rs&user=17013670910803495986&hash=dlg20jhthgmol8j57b8l9213ph8k0ik5
+Этот url картинки получается временный, так что для постоянного использования не годится.
+
+А это картинка, у которой src указан с гугл-диска с короткой ссылкой:
+
+<img src="https://docs.google.com/uc?id=1HfUzgQKQ0-82587c9WbvQIJWUIHH3rq_" width="100" alt="здесь должна была быть картинка" title="Image from Google Disk">
+здесь должна была быть картинка
+
+В данном случае мне это нужно было, чтобы быстро загрузить svg-файл и использовать его на другом сервере, на котором я не могу загружать картинки.
+
+----------------------------------------------------------------
+
+Задача №2 – получить прямой url к музыкальному файлу, загруженному на google disk
+В общем, никакой разницы нету, все делается так же как и с картинкой.
+
+Например, у нас есть аудио-файл, публичная ссылка для которого:
+
+https://drive.google.com/open?id=1syzEijnqHn8hHIWIFaqcJXp9X4OPB-YZ
+В этой ссылке FILE-ID это – 1syzEijnqHn8hHIWIFaqcJXp9X4OPB-YZ, копируем его и вставляем в такой шаблон:
+
+https://docs.google.com/uc?id=FILE-ID
+Получаем такой урл, который будет сокращенной ссылкой на наш файл:
+
+https://docs.google.com/uc?id=1syzEijnqHn8hHIWIFaqcJXp9X4OPB-YZ
+Только встроенный в WordPress плеер не воспроизведет ссылку на аудио, в которой не указано расширение файла (.mp3) по типу https://docs.google.com/uc?id=1syzEijnqHn8hHIWIFaqcJXp9X4OPB-YZ.
+
+Но это можно решить с помощью тега
+
+<audio>
+<audio controls>
+  <source src="https://docs.google.com/uc?id=1syzEijnqHn8hHIWIFaqcJXp9X4OPB-YZ" type="audio/mpeg">
+</audio>
