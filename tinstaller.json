@@ -19,6 +19,18 @@
 			"category": "Утилиты"
 		},
 		{
+			"title": "Read You",
+			"description": "Современная и элегантная программа для чтения RSS с дизайном Material You. Версия 0.9.8. (19) Android 8.0",
+			"url": "https://github.com/Evgenatrix/evgenatrix.github.io/raw/master/me.ash.reader_19.apk",
+			"category": "Утилиты"
+		},
+		{
+			"title": "KISS Launcher",
+			"description": "Ориентированный на поиск молниеносно быстрый лаунчер. Версия 3.20.0 Android 4.0.3",
+			"url": "https://docs.google.com/uc?id=1iQXpzDWuNgdGz3B6ybNzGKhJ3jWxiMOj",
+			"category": "Утилиты"
+		},
+		{
 			"title": "Aptoide TV",
 			"description": "Адаптированный для ATV aльтернативный маркет с приложениями.",
 			"url": "https://dradler.pp.ru/apps/Aptoide_TV.apk",
