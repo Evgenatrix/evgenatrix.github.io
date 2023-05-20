@@ -16,6 +16,7 @@
 			"title": "Apk Extractor",
 			"description": "F-Droid. APK Extractor - Извлеките APK-файлы с вашего устройства, даже если они установлены из Playstore. Для платных приложений требуется root-доступ . Apk будут сохранены в /sdcard/Download/Eimon/.Совместимость с последней версией Android 6.0. Сохраненный формат apk: AppPackageName.apk. ",
 			"url": "https://f-droid.org/repo/axp.tool.apkextractor_5.apk",
+			"app_review": "https://docs.google.com/uc?id=1iQXpzDWuNgdGz3B6ybNzGKhJ3jWxiMOj",
 			"category": "Утилиты"
 		},
 		{
