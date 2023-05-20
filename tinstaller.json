@@ -13,6 +13,12 @@
 			"category": "Утилиты"
 		},
 		{
+			"title": "Apk Extractor",
+			"description": "F-Droid. APK Extractor - Извлеките APK-файлы с вашего устройства, даже если они установлены из Playstore. Для платных приложений требуется root-доступ . Apk будут сохранены в /sdcard/Download/Eimon/.Совместимость с последней версией Android 6.0. Сохраненный формат apk: AppPackageName.apk. ",
+			"url": "https://f-droid.org/repo/axp.tool.apkextractor_5.apk",
+			"category": "Утилиты"
+		},
+		{
 			"title": "Aptoide TV",
 			"description": "Адаптированный для ATV aльтернативный маркет с приложениями.",
 			"url": "https://dradler.pp.ru/apps/Aptoide_TV.apk",
