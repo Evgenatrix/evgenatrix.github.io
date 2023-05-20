@@ -16,16 +16,14 @@
 			"title": "Apk Extractor",
 			"description": "F-Droid. APK Extractor - Извлеките APK-файлы с вашего устройства, даже если они установлены из Playstore. Для платных приложений требуется root-доступ . Apk будут сохранены в /sdcard/Download/Eimon/.Совместимость с последней версией Android 6.0. Сохраненный формат apk: AppPackageName.apk. ",
 			"url": "https://f-droid.org/repo/axp.tool.apkextractor_5.apk",
-			"app_review": "https://docs.google.com/uc?id=1iQXpzDWuNgdGz3B6ybNzGKhJ3jWxiMOj",
 			"category": "Утилиты"
 		},
 		{
 			"title": "KISS Launcher",
-			"description": "F-Droid. KISS Launcher  - Ориентированный на поиск молниеносно быстрый лаунчер. Версия 3.20.0. Андроид 4.0.3",
+			"description": "F-Droid. KISS Launcher  - Ориентированный на поиск молниеносно быстрый лаунчер. Версия 3.20.0. Андроид 4.0.3 Установка через кнопку.",
 			"url": "",
-			"app_review": "https://docs.google.com/uc?id=1iQXpzDWuNgdGz3B6ybNzGKhJ3jWxiMOj",
 			"app_review": "https://f-droid.org/ru/packages/fr.neamar.kiss/",
-			"category": "Утилиты"
+			"category": "Тест"
 		},
 		{
 			"title": "Read You",
